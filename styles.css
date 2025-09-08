@@ -7,6 +7,8 @@ body{
     grid-template-columns: minmax(220px, 260px) 1fr;
 
     grid-template-rows: auto 1fr ;
+
+    font-family: "Roboto", sans-serif;
 }
 
 .sidebar {
@@ -78,14 +80,56 @@ padding-left: 0.5rem;
   height: 2rem;
 }
 
+.header .top .left input{
+ width: 60rem;
+ background-color: #e2e8f0;
+ outline: none;
+ padding: 0.5rem;
+ border-radius: 2rem;
+ border: 1px solid transparent;
+ color: rgb(48, 48, 48);
+ font-size: 1rem;
+}
+
+.header .top .left input:focus{
+  border: 1px solid rgb(148, 143, 143);
+}
+
 .header .top .left{
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .header .top .right svg{
   height: 2rem;
   width: 2rem;
+}
+.header .top .right img{
+  height: 3rem;
+  width: auto;
+
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.header .top .right{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.header .top .right p{
+  font-weight: 600;
+  font-size: 1.2rem;
+  
+}
+
+.header .top{
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .main-content {
