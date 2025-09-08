@@ -70,7 +70,22 @@ padding-left: 0.5rem;
 .header {
     grid-row: 1/2;
   
-  background-color: #444;
+  background-color: white;
+}
+
+.header .top label svg{
+  width: 2rem;
+  height: 2rem;
+}
+
+.header .top .left{
+  display: flex;
+  align-items: center;
+}
+
+.header .top .right svg{
+  height: 2rem;
+  width: 2rem;
 }
 
 .main-content {
