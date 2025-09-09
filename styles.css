@@ -81,7 +81,7 @@ padding-left: 0.5rem;
 }
 
 .header .top .left input{
- width: 60rem;
+ width: 55rem;
  background-color: #e2e8f0;
  outline: none;
  padding: 0.5rem;
@@ -129,9 +129,59 @@ padding-left: 0.5rem;
   justify-content: space-between;
 
   padding-left: 4rem;
-  padding-right: 4rem;
+  padding-right: 6rem;
 }
 
+.bottom img{
+  height: 4.5rem;
+  width: 4.5rem;
+
+  border-radius: 50%;
+}
+
+.header .bottom .left{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.header .bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+
+.one{
+ font-weight: 600;
+ font-size: 0.9rem;
+}
+
+.two{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.header .bottom .right{
+  display: flex;
+  gap: 3rem;
+}
+
+.header .bottom .right button{
+  background-color: #1992d4;
+  border: 1px solid transparent;
+  color: white;
+  padding: 0.5rem 1.8rem;
+  font-weight: 600;
+  border-radius: 1.7rem;
+  font-size: 1rem;
+
+}
 .main-content {
     grid-row: 2/3;
  
