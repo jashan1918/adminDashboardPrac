@@ -243,7 +243,34 @@ padding-left: 0.5rem;
   cursor: pointer;
 }
 
+.right-panel{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 2rem;
+  padding-right: 5rem;
+  gap: 5rem;
 
+}
+.right-panel p{
+font-size: 0.7rem;
+}
+.announcements{
+  border-radius: 1rem;
+    background-color: white;
+     padding-left: 2rem;
+     padding-right: 2rem;
+}
+
+.announcement {
+
+  padding: 0.8rem 0;
+ 
+  border-bottom: 1px solid #ccc;
+}
+
+.announcement:last-child {
+  border-bottom: none;
+}
 
 
 
