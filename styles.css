@@ -260,7 +260,12 @@ font-size: 0.7rem;
      padding-left: 2rem;
      padding-right: 2rem;
 }
-
+.announcement h5{
+  color: #414040;
+}
+.announcement p{
+  margin-top: -1rem;
+}
 .announcement {
 
   padding: 0.8rem 0;
@@ -271,7 +276,35 @@ font-size: 0.7rem;
 .announcement:last-child {
   border-bottom: none;
 }
+.trendings {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Add spacing between each user */
+  padding: 1rem;
+  border-radius:  1.5rem;;
+}
 
+.trending {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 1rem;
+
+}
+.trending h6{
+  font-size: 0.9rem;
+  color: #525252;
+}
+.trending p{
+  margin-top: -1.5rem;
+  font-size: 0.8rem;
+}
+.trendings img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%; /* Make it circular */
+}
 
 
 
