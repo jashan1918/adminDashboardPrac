@@ -216,6 +216,8 @@ padding-left: 0.5rem;
 
 .card {
 
+  border-left: 8px solid #f1c40f;
+  background-color: white;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -225,7 +227,9 @@ padding-left: 0.5rem;
   justify-content: space-between;
   gap: 1rem;
 }
-
+.card p {
+  color: rgb(75, 75, 75);
+}
 .icons {
   display: flex;
   gap: 0.75rem;
